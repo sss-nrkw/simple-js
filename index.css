@@ -1,0 +1,12 @@
+#sample{
+    color: red;
+}
+
+
+/* スマートフォン向けメディアクエリ */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* スマートフォン向けのフォントサイズ */
+        padding: 10px; /* 余白を調整 */
+    }
+}
